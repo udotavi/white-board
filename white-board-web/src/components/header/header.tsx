@@ -1,8 +1,10 @@
+import './header.css'
+
 const Header = () => {
   return (
-    <div>
+    <div className="header-main-div">
       <nav
-        className="navbar bg-dark border-bottom border-body"
+        className="navbar bg-dark border-bottom border-body fixed-top"
         data-bs-theme="dark"
       >
         <div className="container-fluid">
